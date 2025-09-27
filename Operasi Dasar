@@ -1,0 +1,12 @@
+# Membuat variabel dengan tipe data integer
+a = 10
+b = 20
+
+# Membuat operasi dasar
+print(a + b)  # untuk operasi penjumlahan
+print(a - b)  # untuk operasi pengurangan
+print(a * b)  # untuk operasi perkalian
+print(a / b)  # untuk operasi pembagian
+print(a % b)  # untuk operasi modula 
+print(a ** b) # untuk operasi pangkat
+print(a // b) # untuk operasi pembagian bulat
