@@ -1,6 +1,6 @@
 # Membuat input variabel dengan tipe data integer
-a = 10
-b = 20
+a = int(input("masukkan nilai : "))
+b = int(input("masukkan nilai : "))
 
 # Membuat operasi dasar
 print(a + b)  # untuk operasi penjumlahan
