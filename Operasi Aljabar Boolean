@@ -1,0 +1,11 @@
+p = True
+q = False
+
+print("p AND q =", p and q)
+# Output : p AND q = False
+print("p OR q =", p or q)
+# Output : p OR q = True
+print("NOT p =", not p)
+# Output : NOT p = False
+print("p XOR q =", p ^ q)
+# Output : p XOR q = True
