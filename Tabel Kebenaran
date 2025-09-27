@@ -1,0 +1,27 @@
+print("p =", True, q=", True, "=> p AND q = True and True)
+# Output : True, q = True => p AND q = True
+print("p =", True, q=", False, "=> p AND q", True and False)
+# Output : True, q= False => p AND q = False
+print("p =", False, ", q", True, "=> p AND q", False and True)
+# Output : False, q True => p AND q = False
+print("p=", False,", q", False, "=> p AND q =", False and False)
+# Output :False, q= False => p AND q = False
+
+p = True
+q = False
+print("p", False, " q =", True, "=> p^q", False ^ True)
+# Output : False q True => p^q = True
+print("p=", False," q", False, "=> p^q", False ^ False)
+# Output : False q = False => p^q = False
+print("p =", True, " q =", True, "=> p^q", True ^ True)
+# Output : True q = True => p^q = False
+print("p=", True, " q", False, "=> p^q", True ^ False)
+# Output : True q = False => p^q = True
+print("p=", False," ~q=", True, "=> p V ~q=", False or not True)
+# Output : False q = True => p V ~q = False
+print("p", False, " q =", True, "=> p V ~q=", False or not False)
+# Output : False q = True => p V ~q= True
+print("p =", True," ~q=", True, "=> p V ~q=", True or not True)
+# Output : True ~q = True => p V ~q = True
+print("p=", True, " ~q=", False, "=> p V ~q", True or not False)
+# Output : True q = False => p V ~q = True
