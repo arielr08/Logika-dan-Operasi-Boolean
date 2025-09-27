@@ -1,3 +1,5 @@
-# Membuat input variabel dengan tipe data integer
-a = 10
+# Menenpukan tipe data fariabel
+a = "10"
 b = 20
+c = 1.5
+d = True
